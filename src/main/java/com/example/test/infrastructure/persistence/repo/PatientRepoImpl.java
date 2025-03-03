@@ -37,3 +37,4 @@ public class PatientRepoImpl implements PatientRepository {
                 .map(PatientMapper::toDomain);
     }
 }
+

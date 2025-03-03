@@ -10,12 +10,12 @@ import java.util.List;
 import java.util.Optional;
 
 
-public class PatientService {
-    private final SavePatientUseCase savePatientUseCase;
-    private final GetListPatientsUseCase getListPatientsUseCase;
-    private final GetPatientUseCase getPatientUseCase;
+    public class PatientService {
+        private final SavePatientUseCase savePatientUseCase;
+        private final GetListPatientsUseCase getListPatientsUseCase;
+        private final GetPatientUseCase getPatientUseCase;
 
-    public PatientService(SavePatientUseCase savePatientUseCase, GetListPatientsUseCase getListPatientsUseCase, GetPatientUseCase getPatientUseCase) {
+        public PatientService(SavePatientUseCase savePatientUseCase, GetListPatientsUseCase getListPatientsUseCase, GetPatientUseCase getPatientUseCase) {
         this.savePatientUseCase = savePatientUseCase;
         this.getListPatientsUseCase = getListPatientsUseCase;
         this.getPatientUseCase = getPatientUseCase;
